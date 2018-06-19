@@ -142,6 +142,6 @@ int main()
     }
 
 	int n = sizeof(P) / sizeof(P[0]);
-	printf("The smallest distance is %f ", closest(P, n));
+	printf("The smallest distance is %f ", closest(P, k));
 	return 0;
 }
